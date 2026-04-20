@@ -1,7 +1,6 @@
-import 'package:censor_it/censor_it.dart';
 import 'package:flutter/material.dart';
 
-import '../../flutter_censor_it.dart';
+import '../../../censor_it_flutter.dart';
 
 /// {@template base_span_builder}
 /// Abstract base class for building text spans with censored content.

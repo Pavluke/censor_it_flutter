@@ -1,4 +1,4 @@
-package com.example.flutter_censor_it_example
+package com.example.censor_it_flutter_example
 
 import io.flutter.embedding.android.FlutterActivity
 

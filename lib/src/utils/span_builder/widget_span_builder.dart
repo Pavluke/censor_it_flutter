@@ -27,8 +27,8 @@ class WidgetSpanBuilder extends BaseSpanBuilder<InlineSpan> {
     required super.censorIt,
     required super.style,
     required this.child,
-    this.alignment = .middle,
-    this.baseline = .ideographic,
+    this.alignment = PlaceholderAlignment.middle,
+    this.baseline = TextBaseline.ideographic,
   });
 
   /// The widget to display in place of censored words.
@@ -42,20 +42,21 @@ class WidgetSpanBuilder extends BaseSpanBuilder<InlineSpan> {
 
   @override
   InlineSpan buildPlainSpan(String text) => TextSpan(
-    text: text,
-    style: style,
-  );
+        text: text,
+        style: style,
+      );
 
   @override
   InlineSpan buildCensoredSpan(
     String originalWord,
     int index,
     bool revealedAll,
-  ) => revealedAll
-      ? TextSpan(text: originalWord, style: style)
-      : WidgetSpan(
-          alignment: alignment,
-          baseline: baseline,
-          child: child,
-        );
+  ) =>
+      revealedAll
+          ? TextSpan(text: originalWord, style: style)
+          : WidgetSpan(
+              alignment: alignment,
+              baseline: baseline,
+              child: child,
+            );
 }

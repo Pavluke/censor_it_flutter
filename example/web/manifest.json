@@ -1,6 +1,6 @@
 {
-    "name": "flutter_censor_it_example",
-    "short_name": "flutter_censor_it_example",
+    "name": "censor_it_flutter_example",
+    "short_name": "censor_it_flutter_example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

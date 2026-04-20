@@ -1,3 +1,3 @@
-# flutter_censor_it_example
+# censor_it_flutter_example
 
 A new Flutter project.

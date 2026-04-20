@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://github.com/Pavluke/flutter_censor_it/blob/main/images/banner.gif?raw=true" alt="Banner" />
+  <img src="https://github.com/Pavluke/censor_it_flutter/blob/main/images/banner.gif?raw=true" alt="Banner" />
 </p>
 
-[![Pub](https://img.shields.io/pub/v/flutter_censor_it.svg)](https://pub.dartlang.org/packages/flutter_censor_it)
+[![Pub](https://img.shields.io/pub/v/censor_it_flutter.svg)](https://pub.dartlang.org/packages/censor_it_flutter)
 
 **En** | [Ru](README_RU.md)
 
@@ -10,10 +10,16 @@ Flutter widget for censoring text based on predefined patterns with customizable
 strategies. Built on top of [censor_it](https://pub.dev/packages/censor_it)
 package.
 
-## Migration Guide
+<p align="center">For better understanding how it works check <a href="https://pavluke.github.io/packages/?pkg=censor_it_flutter">demo</a> page</p>
 
-Upgrading from v1.x? See the detailed [Migration Guide](MIGRATION.md) for
-step-by-step instructions.
+<div align="center">
+  <a href="https://pavluke.github.io/packages/?pkg=censor_it_flutter" 
+     style="background: #10ac84; color: white; padding: 12px 24px; 
+            text-decoration: none; border-radius: 6px; 
+            font-weight: bold; display: inline-block;">
+    Open Demo
+  </a>
+</div>
 
 ## Introduction
 
@@ -29,35 +35,35 @@ censoring strategies.
 - 🇫🇷 French (FR)
 - 🇩🇪 German (DE)
 - 🇮🇹 Italian (IT)
-- 🇰🇿 Kazakh (KZ)
+- 🇰🇿 Kazakh (KK)
 - 🇱🇻 Latvian (LV)
 - 🇱🇹 Lithuanian (LT)
 - 🇵🇹 Portuguese (PT)
 - 🇵🇱 Polish (PL)
 - 🇷🇺 Russian (RU)
 - 🇪🇸 Spanish (ES)
-- 🇸🇪 Swedish (SE)
-- 🇺🇦 Ukrainian (UA)
+- 🇸🇪 Swedish (SV)
+- 🇺🇦 Ukrainian (UK)
 
 ## Getting started
 
-Add flutter_censor_it to your `pubspec.yaml`:
+Add censor_it_flutter to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_censor_it: ^2.0.0
+  censor_it_flutter: ^2.1.1
 ```
 
 Or using the command:
 
 ```bash
-flutter pub add flutter_censor_it
+flutter pub add censor_it_flutter
 ```
 
 Import the package in your Dart file:
 
 ```dart
-import 'package:flutter_censor_it/flutter_censor_it.dart';
+import 'package:censor_it_flutter/censor_it_flutter.dart';
 ```
 
 ## Usage
@@ -66,7 +72,7 @@ import 'package:flutter_censor_it/flutter_censor_it.dart';
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:flutter_censor_it/flutter_censor_it.dart';
+import 'package:censor_it_flutter/censor_it_flutter.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -350,9 +356,9 @@ The list of changes is available in the file [CHANGELOG.md](CHANGELOG.md)
 
 Feel free to contribute to this project. If you find a bug or want to add a new
 feature but don't know how to fix/implement it, please write in
-[issues](https://github.com/pavluke/flutter_censor_it/issues). If you fixed a
+[issues](https://github.com/pavluke/censor_it_flutter/issues). If you fixed a
 bug or implemented some feature, please make
-[pull request](https://github.com/pavluke/flutter_censor_it/pulls).
+[pull request](https://github.com/pavluke/censor_it_flutter/pulls).
 
 ## License
 

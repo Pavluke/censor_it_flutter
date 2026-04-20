@@ -1,11 +1,10 @@
 part of 'censor_it_widget_base.dart';
 
 /// A function that generates replacement widgets for profane words.
-typedef CensorWidgetBuilder =
-    Widget Function(
-      BuildContext context,
-      String word,
-    );
+typedef CensorWidgetBuilder = Widget Function(
+  BuildContext context,
+  String word,
+);
 
 /// {@macro censor_it_widget.widget_builder}
 final class CensorItWidgetBuilder extends CensorItWidget {
@@ -45,8 +44,8 @@ class _CensorItWidgetBuilderState extends State<CensorItWidgetBuilder> {
       ),
       style: widget.normalTextStyle(context),
       child: widget.builder(context, ''),
-      alignment: widget.alignment ?? .middle,
-      baseline: widget.baseline ?? .ideographic,
+      alignment: widget.alignment ?? PlaceholderAlignment.middle,
+      baseline: widget.baseline ?? TextBaseline.ideographic,
     );
 
     final spans = spanBuilder.buildSpans(revealAll: false);

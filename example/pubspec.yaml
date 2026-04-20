@@ -1,15 +1,15 @@
-name: flutter_censor_it_example
+name: censor_it_flutter_example
 description: "A new Flutter project."
 publish_to: "none"
-version: 0.1.0
+version: 2.1.1
 
 environment:
-  sdk: ^3.10.0
+  sdk: ">=3.6.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_censor_it:
+  censor_it_flutter:
     path: ../
 
 dev_dependencies:

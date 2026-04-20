@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "flutter_censor_it_example" "\0"
+            VALUE "FileDescription", "censor_it_flutter_example" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "flutter_censor_it_example" "\0"
+            VALUE "InternalName", "censor_it_flutter_example" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "flutter_censor_it_example.exe" "\0"
-            VALUE "ProductName", "flutter_censor_it_example" "\0"
+            VALUE "OriginalFilename", "censor_it_flutter_example.exe" "\0"
+            VALUE "ProductName", "censor_it_flutter_example" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

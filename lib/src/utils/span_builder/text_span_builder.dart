@@ -39,17 +39,18 @@ class TextSpanBuilder extends BaseSpanBuilder<TextSpan> {
 
   @override
   TextSpan buildPlainSpan(String text) => TextSpan(
-    text: text,
-    style: style,
-  );
+        text: text,
+        style: style,
+      );
 
   @override
   TextSpan buildCensoredSpan(
     String originalWord,
     int index,
     bool revealAll,
-  ) => TextSpan(
-    text: revealAll ? originalWord : censorIt.censored,
-    style: censoredStyle,
-  );
+  ) =>
+      TextSpan(
+        text: revealAll ? originalWord : censorIt.censored,
+        style: censoredStyle,
+      );
 }

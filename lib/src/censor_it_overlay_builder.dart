@@ -1,12 +1,11 @@
 part of 'censor_it_widget_base.dart';
 
 /// A function that generates overlay widgets for profane words.
-typedef CensorOverlayBuilder =
-    Widget Function(
-      BuildContext context,
-      String word,
-      bool isRevealed,
-    );
+typedef CensorOverlayBuilder = Widget Function(
+  BuildContext context,
+  String word,
+  bool isRevealed,
+);
 
 /// {@macro censor_it_widget.overlay_builder}
 final class CensorItOverlayBuilder extends CensorItWidget {
@@ -94,7 +93,7 @@ class _CensorItOverlayBuilderState extends State<CensorItOverlayBuilder> {
 
         final painter = TextPainter(
           text: TextSpan(children: spans),
-          textDirection: .ltr,
+          textDirection: TextDirection.ltr,
         )..layout(maxWidth: constraints.maxWidth);
 
         Widget textWidget = CustomPaint(
@@ -162,9 +161,9 @@ class _TextPainterAdapter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) => textPainter.paint(
-    canvas,
-    .zero,
-  );
+        canvas,
+        Offset.zero,
+      );
 
   @override
   bool shouldRepaint(_TextPainterAdapter oldDelegate) => false;
