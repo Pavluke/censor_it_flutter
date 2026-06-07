@@ -51,7 +51,7 @@ Flutter виджет для цензурирования текста на ос�
 
 ```yaml
 dependencies:
-  censor_it_flutter: ^2.1.1
+  censor_it_flutter: ^2.1.2
 ```
 
 Или используя команду:

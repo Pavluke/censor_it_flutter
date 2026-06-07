@@ -1,9 +1,14 @@
-## [2.1.1]
+## 2.1.2
 
- - Downgrade min requirement Dart SDK to 3.6.0
- - Bump censor_it to ^2.1.1
- 
-## [2.0.0]
+- Add [pavluke_lints](https://pub.dev/packages/pavluke_lints)
+- Bump [censor_it](https://pub.dev/packages/censor_it) to ^2.1.2
+
+## 2.1.1
+
+- Downgrade min requirement Dart SDK to 3.6.0
+- Bump [censor_it](https://pub.dev/packages/censor_it) to ^2.1.1
+
+## 2.0.0
 
 ### Breaking Changes
 
